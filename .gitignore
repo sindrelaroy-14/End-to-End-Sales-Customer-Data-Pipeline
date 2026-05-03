@@ -1,10 +1,14 @@
 # Ignore configuration files with secrets
 
-
 # Ignore temporary python files
 __pycache__/
-*.py[cod]
+*.pyc
+*.pyo
+*.pyd
 
 # Ignore any local data files
 *.csv
-*.json
+
+# Ignore virtual environments
+venv/
+.env
