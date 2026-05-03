@@ -72,11 +72,11 @@ End-to-End-Sales-Customer-Data-Pipeline/
 ├── data/
 │   └── schema_definitions.json         
 ├── config/
-│   └── databricks_secrets_setup.sh     
+│   └── databricks_secret_setup.py     
 ├── notebooks/
-│   ├── 01_bronze_ingestion.py          
-│   ├── 02_silver_transform.py      
-│   └── 03_gold_aggregations.py         
+│   ├── 01_bronze_ingestion.ipynb          
+│   ├── 02_silver_transform.ipynb      
+│   └── 03_gold_aggregations.ipynb         
 ├── airflow/
 │   └── sales_pipeline_dag.py       
 └── README.md                           
